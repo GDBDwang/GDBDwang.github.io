@@ -1,0 +1,275 @@
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Markdown语法教程 | Xujiayao's Blog</title><meta name="keywords" content="CES8367,Richard,Richard Wong"><meta name="author" content="Richard Wong,gdbdwang@gmail.com"><meta name="copyright" content="Richard Wong"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="1  1、基础语法（1）标题格式MarkDown支持6种级别的标题，对应html中的h1~h6,多个#号+空格+标题 h1h2h3h4h5h6带上标记效果如下： h1h2h3h4h5h6Markdown还支持另外一种标题展现形式，类似于Setext标记语言的表现形式，使用下划线进行文本大小的控制，仅有一级和二级标题这是一级标题&#x3D;&#x3D;&#x3D;这是二级标题—带上标记效果如下： 这是一级标题这是二级标题2）段落">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Markdown语法教程">
+<meta property="og:url" content="https://blog.richardw.top/2021/11/05/Markdown%E8%AF%AD%E6%B3%95%E6%95%99%E7%A8%8B/index.html">
+<meta property="og:site_name" content="Xujiayao&#39;s Blog">
+<meta property="og:description" content="1  1、基础语法（1）标题格式MarkDown支持6种级别的标题，对应html中的h1~h6,多个#号+空格+标题 h1h2h3h4h5h6带上标记效果如下： h1h2h3h4h5h6Markdown还支持另外一种标题展现形式，类似于Setext标记语言的表现形式，使用下划线进行文本大小的控制，仅有一级和二级标题这是一级标题&#x3D;&#x3D;&#x3D;这是二级标题—带上标记效果如下： 这是一级标题这是二级标题2）段落">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://blog.richardw.top/file/background.png">
+<meta property="article:published_time" content="2021-11-05T11:24:08.441Z">
+<meta property="article:modified_time" content="2021-10-26T12:39:00.000Z">
+<meta property="article:author" content="Richard Wong">
+<meta property="article:tag" content="CES8367">
+<meta property="article:tag" content="Richard">
+<meta property="article:tag" content="Richard Wong">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://blog.richardw.top/file/background.png"><link rel="shortcut icon" href="/file/image/avatar.png"><link rel="canonical" href="https://blog.richardw.top/2021/11/05/Markdown%E8%AF%AD%E6%B3%95%E6%95%99%E7%A8%8B/"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css" media="print" onload="this.media='all'"><script>const GLOBAL_CONFIG = { 
+  root: '/',
+  algolia: undefined,
+  localSearch: undefined,
+  translate: undefined,
+  noticeOutdate: undefined,
+  highlight: {"plugin":"highlighjs","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":false},
+  copy: {
+    success: '复制成功',
+    error: '复制错误',
+    noSupport: '浏览器不支持'
+  },
+  relativeDate: {
+    homepage: false,
+    post: false
+  },
+  runtime: '',
+  date_suffix: {
+    just: '刚刚',
+    min: '分钟前',
+    hour: '小时前',
+    day: '天前',
+    month: '个月前'
+  },
+  copyright: undefined,
+  lightbox: 'fancybox',
+  Snackbar: undefined,
+  source: {
+    jQuery: 'https://cdn.jsdelivr.net/npm/jquery@latest/dist/jquery.min.js',
+    justifiedGallery: {
+      js: 'https://cdn.jsdelivr.net/npm/justifiedGallery/dist/js/jquery.justifiedGallery.min.js',
+      css: 'https://cdn.jsdelivr.net/npm/justifiedGallery/dist/css/justifiedGallery.min.css'
+    },
+    fancybox: {
+      js: 'https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.umd.js',
+      css: 'https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css'
+    }
+  },
+  isPhotoFigcaption: false,
+  islazyload: false,
+  isanchor: false
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  title: 'Markdown语法教程',
+  isPost: true,
+  isHome: false,
+  isHighlightShrink: false,
+  isToc: true,
+  postUpdate: '2021-10-26 20:39:00'
+}</script><noscript><style type="text/css">
+  #nav {
+    opacity: 1
+  }
+  .justified-gallery img {
+    opacity: 1
+  }
+
+  #recent-posts time,
+  #post-meta time {
+    display: inline !important
+  }
+</style></noscript><script>(win=>{
+    win.saveToLocal = {
+      set: function setWithExpiry(key, value, ttl) {
+        if (ttl === 0) return
+        const now = new Date()
+        const expiryDay = ttl * 86400000
+        const item = {
+          value: value,
+          expiry: now.getTime() + expiryDay,
+        }
+        localStorage.setItem(key, JSON.stringify(item))
+      },
+
+      get: function getWithExpiry(key) {
+        const itemStr = localStorage.getItem(key)
+
+        if (!itemStr) {
+          return undefined
+        }
+        const item = JSON.parse(itemStr)
+        const now = new Date()
+
+        if (now.getTime() > item.expiry) {
+          localStorage.removeItem(key)
+          return undefined
+        }
+        return item.value
+      }
+    }
+  
+    win.getScript = url => new Promise((resolve, reject) => {
+      const script = document.createElement('script')
+      script.src = url
+      script.async = true
+      script.onerror = reject
+      script.onload = script.onreadystatechange = function() {
+        const loadState = this.readyState
+        if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+        script.onload = script.onreadystatechange = null
+        resolve()
+      }
+      document.head.appendChild(script)
+    })
+  
+      win.activateDarkMode = function () {
+        document.documentElement.setAttribute('data-theme', 'dark')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0d0d0d')
+        }
+      }
+      win.activateLightMode = function () {
+        document.documentElement.setAttribute('data-theme', 'light')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#ffffff')
+        }
+      }
+      const t = saveToLocal.get('theme')
+    
+          if (t === 'dark') activateDarkMode()
+          else if (t === 'light') activateLightMode()
+        
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        if (asideStatus === 'hide') {
+          document.documentElement.classList.add('hide-aside')
+        } else {
+          document.documentElement.classList.remove('hide-aside')
+        }
+      }
+    
+    const detectApple = () => {
+      if (GLOBAL_CONFIG_SITE.isHome && /iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)){
+        document.documentElement.classList.add('apple')
+      }
+    }
+    detectApple()
+    })(window)</script><meta name="generator" content="Hexo 5.4.0"><link rel="alternate" href="/atom.xml" title="Xujiayao's Blog" type="application/atom+xml">
+</head><body><div id="web_bg"></div><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img is-center"><img src="/file/image/avatar.png" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="site-data"><div class="data-item is-center"><div class="data-item-link"><a href="/archives/"><div class="headline">文章</div><div class="length-num">2</div></a></div></div></div><hr/></div></div><div class="post" id="body-wrap"><header class="post-bg" id="page-header" style="background-image: url('/file/background.png')"><nav id="nav"><span id="blog_name"><a id="site-name" href="/">Xujiayao's Blog</a></span><div id="menus"><div id="toggle-menu"><a class="site-page"><i class="fas fa-bars fa-fw"></i></a></div></div></nav><div id="post-info"><h1 class="post-title">Markdown语法教程</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">发表于</span><time class="post-meta-date-created" datetime="2021-11-05T11:24:08.441Z" title="发表于 2021-11-05 19:24:08">2021-11-05</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2021-10-26T12:39:00.000Z" title="更新于 2021-10-26 20:39:00">2021-10-26</time></span></div><div class="meta-secondline"><span class="post-meta-separator">|</span><span class="post-meta-wordcount"><i class="far fa-file-word fa-fw post-meta-icon"></i><span class="post-meta-label">字数总计:</span><span class="word-count">982</span><span class="post-meta-separator">|</span><i class="far fa-clock fa-fw post-meta-icon"></i><span class="post-meta-label">阅读时长:</span><span>2分钟</span></span><span class="post-meta-separator">|</span><span class="post-meta-pv-cv" id="" data-flag-title="Markdown语法教程"><i class="far fa-eye fa-fw post-meta-icon"></i><span class="post-meta-label">阅读量:</span><span id="busuanzi_value_page_pv"></span></span></div></div></div></header><main class="layout" id="content-inner"><div id="post"><article class="post-content" id="article-container"><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"></span><br></pre></td></tr></table></figure>
+
+<h2 id="1、基础语法"><a href="#1、基础语法" class="headerlink" title="1、基础语法"></a><strong>1、基础语法</strong></h2><h3 id="（1）标题格式"><a href="#（1）标题格式" class="headerlink" title="（1）标题格式"></a>（1）标题格式</h3><p><strong>MarkDown支持6种级别的标题，对应html中的h1~h6,多个#号+空格+标题</strong></p>
+<h1 id="h1"><a href="#h1" class="headerlink" title="h1"></a>h1</h1><h2 id="h2"><a href="#h2" class="headerlink" title="h2"></a>h2</h2><h3 id="h3"><a href="#h3" class="headerlink" title="h3"></a>h3</h3><h4 id="h4"><a href="#h4" class="headerlink" title="h4"></a>h4</h4><h5 id="h5"><a href="#h5" class="headerlink" title="h5"></a>h5</h5><h6 id="h6"><a href="#h6" class="headerlink" title="h6"></a>h6</h6><p>带上标记效果如下：</p>
+<p>h1<br>h2<br>h3<br>h4<br>h5<br>h6<br>Markdown还支持另外一种标题展现形式，类似于Setext标记语言的表现形式，使用下划线进行文本大小的控制，仅有一级和二级标题<br>这是一级标题<br>===<br>这是二级标题<br>—<br>带上标记效果如下：</p>
+<p>这是一级标题<br>这是二级标题<br>2）段落格式<br>1）首行缩进<br>  全角模式下，按两个空格。PS:我也没有实现<br>  不断行的空格：&nbsp;或 &#160;<br>  全角的空格：&emsp;或 &#8195;<br>  半角的空格：&ensp;或 &#8194;</p>
+<p>2）换行<br>同html中的语法<br></p>
+<br>
+1
+或者使用两个以上的空格+回车
+
+<p>3）新段落<br>开启新段落，可以通过在段落后添加一个空行来表示开启一个新段落</p>
+<p>4）字体<br>Markdown可以使用以下几种字体：</p>
+<p><em>斜体文字</em><br><em>斜体文字</em><br><strong>粗体文字</strong><br><strong>粗体文字</strong><br><em><strong>粗斜体文字</strong></em><br><em><strong>粗斜体文字</strong></em><br>1<br>2<br>3<br>4<br>5<br>6<br>显示效果如下：</p>
+<p>斜体文字<br>斜体文字<br>粗体文字<br>粗体文字<br>粗斜体文字<br>粗斜体文字</p>
+<p>5）分割线<br>可以在一行中通过三个以上的星号、减号或者底线来建立分割线，线内不能有其他内容，可以有在其中冲入空格</p>
+<hr>
+<hr>
+<hr>
+<hr>
+<hr>
+<hr>
+<hr>
+<hr>
+<hr>
+<p>1<br>2<br>3<br>4<br>5<br>6<br>7<br>8<br>9<br>显示效果如下：</p>
+<p>6）删除线<br>如果段落的文字要添加删除线，只需要在文字的两端添加两个波浪线~~即可，实例如下：</p>
+<p><del>这是删除线</del><br>1<br>显示效果如下：</p>
+<p>这是删除线</p>
+<p>7）下划线<br>下滑线可以通过HTML的<u>标签来实现:</p>
+<p><u>这是下划线</u><br>1<br>显示效果如下：</p>
+<p>这是下划线</p>
+<p>8）脚注<br>脚注是对文本的补充说明，其格式如下：</p>
+<p>[^要脚注的文本]<br>1<br>显示效果如下 1</p>
+<p>3）列表和表格格式<br>1）无序列表<br>可以使用(*)、加号(+)或是减号(-)+空格作为列表标记:</p>
+<ul>
+<li>第一项</li>
+<li>第二项</li>
+<li>第三项</li>
+</ul>
+<ul>
+<li>第一项</li>
+<li>第二项</li>
+<li>第三项</li>
+</ul>
+<ul>
+<li>第一项</li>
+<li>第二项</li>
+<li>第三项</li>
+</ul>
+<p>显示效果如下：</p>
+<p>第一项<br>第二项<br>第三项<br>2）有序列表<br>通过数字+.号+空格表示：</p>
+<ol>
+<li>第一项</li>
+<li>第二项</li>
+<li>第三项</li>
+</ol>
+<p>显示效果如下：</p>
+<p>第一项<br>第二项<br>第三项<br>3）列表嵌套<br>列表嵌套只需在子列表中的选项前添加四个空格即可：</p>
+<ol>
+<li>第一项：</li>
+</ol>
+<ul>
+<li>第一项嵌套的第一个元素</li>
+<li>第一项嵌套的第二个元素</li>
+</ul>
+<p>2.第二项：</p>
+<ul>
+<li>第二项嵌套的第一个元素</li>
+<li>第二项嵌套的第二个元素</li>
+</ul>
+<p>显示效果如下：</p>
+<p>第一项：<br>第一项嵌套的第一个元素<br>第一项嵌套的第二个元素<br>第二项：<br>第二项嵌套的第一个元素<br>第二项嵌套的第二个元素<br>4）表格<br>Markdown制作表格用|来分割不同的单元格，其中使用-来区分表头行和其他行：</p>
+<table>
+<thead>
+<tr>
+<th>表头</th>
+<th>表头</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>单元格</td>
+<td>单元格</td>
+</tr>
+<tr>
+<td>单元格</td>
+<td>单元格</td>
+</tr>
+</tbody></table>
+<p>显示效果如下：</p>
+<p>表头    表头<br>单元格    单元格<br>单元格    单元格<br>表格对齐方式：</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">|：----|：----：|----：|</span><br><span class="line">|单元格|单元格|单元格|</span><br><span class="line">|单元格|单元格|单元格|</span><br></pre></td></tr></table></figure>
+
+<p>显示效果如下：</p>
+<p>左对齐    居中对齐    右对齐<br>单元格    单元格    单元格<br>单元格    单元格    单元格<br>4）区块语法<br>1）区块格式<br>在段落的开头使用&gt;+一个空格，区块也是可以嵌套的，一个&gt;是最外层，两个&gt;是第一层嵌套，以此类推：</p>
+<blockquote>
+<p>最外层</p>
+<blockquote>
+<p>第二层</p>
+<blockquote>
+<p>第三层</p>
+</blockquote>
+</blockquote>
+</blockquote>
+<p>显示效果如下：</p>
+<p>最外层</p>
+<p>第二层</p>
+<p>第三层</p>
+<p>2）区块中使用列表</p>
+<blockquote>
+<ol>
+<li>第一项</li>
+<li>第二项</li>
+</ol>
+<ul>
+<li>第一项</li>
+<li>第二项</li>
+<li>第三项</li>
+</ul>
+</blockquote>
+<p>显示效果如下：</p>
+<p>第一项<br>第二项<br>第一项<br>第二项<br>第三项</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"></span><br></pre></td></tr></table></figure></article><div class="post-copyright"><div class="post-copyright__author"><span class="post-copyright-meta">文章作者: </span><span class="post-copyright-info"><a href="mailto:gdbdwang@gmail.com">Richard Wong</a></span></div><div class="post-copyright__type"><span class="post-copyright-meta">文章链接: </span><span class="post-copyright-info"><a href="https://blog.richardw.top/2021/11/05/Markdown%E8%AF%AD%E6%B3%95%E6%95%99%E7%A8%8B/">https://blog.richardw.top/2021/11/05/Markdown%E8%AF%AD%E6%B3%95%E6%95%99%E7%A8%8B/</a></span></div><div class="post-copyright__notice"><span class="post-copyright-meta">版权声明: </span><span class="post-copyright-info">本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a> 许可协议。转载请注明来自 <a href="https://blog.richardw.top" target="_blank">Xujiayao's Blog</a>！</span></div></div><div class="tag_share"><div class="post-meta__tag-list"></div><div class="post_share"><div class="social-share" data-image="/file/background.png" data-sites="facebook,twitter,wechat,weibo,qq"></div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/social-share.js/dist/css/share.min.css" media="print" onload="this.media='all'"><script src="https://cdn.jsdelivr.net/npm/social-share.js/dist/js/social-share.min.js" defer></script></div></div><nav class="pagination-post" id="pagination"><div class="next-post pull-full"><a href="/2021/11/05/hello-world/"><img class="next-cover" src="/file/background.png" onerror="onerror=null;src='/img/404.jpg'" alt="cover of next post"><div class="pagination-info"><div class="label">下一篇</div><div class="next_info">Hello World</div></div></a></div></nav></div><div class="aside-content" id="aside-content"><div class="card-widget card-info"><div class="is-center"><div class="avatar-img"><img src="/file/image/avatar.png" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="author-info__name">Richard Wong</div><div class="author-info__description">Richard's Blog</div></div><div class="card-info-data"><div class="card-info-data-item is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">2</div></a></div></div><a class="button--animated" id="card-info-btn" target="_blank" rel="noopener" href="https://github.com/xxxxxx"><i class="fab fa-github"></i><span>Follow Me</span></a></div><div class="card-widget card-announcement"><div class="item-headline"><i class="fas fa-bullhorn card-announcement-animation"></i><span>公告</span></div><div class="announcement_content">This is my Blog</div></div><div class="sticky_layout"><div class="card-widget" id="card-toc"><div class="item-headline"><i class="fas fa-stream"></i><span>目录</span></div><div class="toc-content"><ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#1%E3%80%81%E5%9F%BA%E7%A1%80%E8%AF%AD%E6%B3%95"><span class="toc-number">1.</span> <span class="toc-text">1、基础语法</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%EF%BC%881%EF%BC%89%E6%A0%87%E9%A2%98%E6%A0%BC%E5%BC%8F"><span class="toc-number">1.1.</span> <span class="toc-text">（1）标题格式</span></a></li></ol></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#h1"><span class="toc-number"></span> <span class="toc-text">h1</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#h2"><span class="toc-number">1.</span> <span class="toc-text">h2</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#h3"><span class="toc-number">1.1.</span> <span class="toc-text">h3</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#h4"><span class="toc-number">1.1.1.</span> <span class="toc-text">h4</span></a><ol class="toc-child"><li class="toc-item toc-level-5"><a class="toc-link" href="#h5"><span class="toc-number">1.1.1.1.</span> <span class="toc-text">h5</span></a><ol class="toc-child"><li class="toc-item toc-level-6"><a class="toc-link" href="#h6"><span class="toc-number">1.1.1.1.1.</span> <span class="toc-text">h6</span></a></li></ol></li></ol></li></ol></li></ol></li></ol></div></div><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>最新文章</span></div><div class="aside-list"><div class="aside-list-item"><a class="thumbnail" href="/2021/11/05/Markdown%E8%AF%AD%E6%B3%95%E6%95%99%E7%A8%8B/" title="Markdown语法教程"><img src="/file/background.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="Markdown语法教程"/></a><div class="content"><a class="title" href="/2021/11/05/Markdown%E8%AF%AD%E6%B3%95%E6%95%99%E7%A8%8B/" title="Markdown语法教程">Markdown语法教程</a><time datetime="2021-11-05T11:24:08.441Z" title="发表于 2021-11-05 19:24:08">2021-11-05</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2021/11/05/hello-world/" title="Hello World"><img src="/file/background.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="Hello World"/></a><div class="content"><a class="title" href="/2021/11/05/hello-world/" title="Hello World">Hello World</a><time datetime="2021-11-05T11:24:08.438Z" title="发表于 2021-11-05 19:24:08">2021-11-05</time></div></div></div></div></div></div></main><footer id="footer" style="background-image: url('/file/background.png')"><div id="footer-wrap"><div class="copyright">&copy;2020 - 2021 By Richard Wong</div><div class="framework-info"><span>框架 </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo</a><span class="footer-separator">|</span><span>主题 </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly</a></div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="readmode" type="button" title="阅读模式"><i class="fas fa-book-open"></i></button><button id="darkmode" type="button" title="浅色和深色模式转换"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside_config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><button class="close" id="mobile-toc-button" type="button" title="目录"><i class="fas fa-list-ul"></i></button><button id="go-up" type="button" title="回到顶部"><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/js/utils.js"></script><script src="/js/main.js"></script><div class="js-pjax"></div><script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script></div></body></html>

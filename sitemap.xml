@@ -2,16 +2,23 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://gdbdwang.gitee.io/2021/10/23/Markdown%E8%AF%AD%E6%B3%95%E6%95%99%E7%A8%8B/</loc>
+    <loc>https://blog.richardw.top/2021/11/05/Markdown%E8%AF%AD%E6%B3%95%E6%95%99%E7%A8%8B/</loc>
     
     <lastmod>2021-10-26</lastmod>
     
   </url>
   
+  <url>
+    <loc>https://blog.richardw.top/2021/11/05/hello-world/</loc>
+    
+    <lastmod>2021-10-05</lastmod>
+    
+  </url>
+  
 
   <url>
-    <loc>https://gdbdwang.gitee.io/</loc>
-    <lastmod>2021-10-26</lastmod>
+    <loc>https://blog.richardw.top/</loc>
+    <lastmod>2021-11-05</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
