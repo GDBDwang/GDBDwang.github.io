@@ -4285,6 +4285,12 @@ blockquote footer cite:before {
   -ms-transform: rotate(360deg);
   transform: rotate(360deg);
 }
+#vcomment textarea {
+  background: url("/file/comment_bg.png") 100% 100% no-repeat;
+}
+#vcomment textarea:focus {
+  background-image: none;
+}
 .fireworks {
   position: fixed;
   top: 0;
