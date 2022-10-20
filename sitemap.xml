@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://blog.richardw.top/2022/10/20/%E4%B8%8D%E6%97%A5%E5%B8%B8%E8%BF%9E%E9%A3%9E%EF%BC%9AZGSZ-ZGGG/</loc>
+    
+    <lastmod>2022-10-20</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://blog.richardw.top/2022/10/20/Markdown%E8%AF%AD%E6%B3%95%E6%95%99%E7%A8%8B/</loc>
     
     <lastmod>2022-10-20</lastmod>
@@ -32,6 +39,20 @@
   </url>
   
 
+  
+  <url>
+    <loc>https://blog.richardw.top/categories/%E4%BC%91%E9%97%B2/</loc>
+    <lastmod>2022-10-20</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.richardw.top/categories/%E4%BC%91%E9%97%B2/SINOFSX/</loc>
+    <lastmod>2022-10-20</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
   
   <url>
     <loc>https://blog.richardw.top/categories/%E6%95%99%E7%A8%8B/</loc>
