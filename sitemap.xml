@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://blog.richardw.top/links/index.html</loc>
+    
+    <lastmod>2024-07-25</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://blog.richardw.top/about/index.html</loc>
     
     <lastmod>2024-07-25</lastmod>
@@ -12,15 +21,6 @@
   
   <url>
     <loc>https://blog.richardw.top/posts/4568e40d/</loc>
-    
-    <lastmod>2024-07-25</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.richardw.top/links/index.html</loc>
     
     <lastmod>2024-07-25</lastmod>
     
@@ -74,20 +74,6 @@
 
   
   <url>
-    <loc>https://blog.richardw.top/tags/Markdown/</loc>
-    <lastmod>2024-07-25</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.richardw.top/tags/%E6%A0%87%E8%AE%B0%E8%AF%AD%E8%A8%80/</loc>
-    <lastmod>2024-07-25</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://blog.richardw.top/tags/SINOFSX/</loc>
     <lastmod>2024-07-25</lastmod>
     <changefreq>weekly</changefreq>
@@ -96,6 +82,20 @@
   
   <url>
     <loc>https://blog.richardw.top/tags/Prepar3D/</loc>
+    <lastmod>2024-07-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.richardw.top/tags/Markdown/</loc>
+    <lastmod>2024-07-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.richardw.top/tags/%E6%A0%87%E8%AE%B0%E8%AF%AD%E8%A8%80/</loc>
     <lastmod>2024-07-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -118,13 +118,6 @@
 
   
   <url>
-    <loc>https://blog.richardw.top/categories/%E6%95%99%E7%A8%8B/</loc>
-    <lastmod>2024-07-25</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://blog.richardw.top/categories/%E4%BC%91%E9%97%B2/</loc>
     <lastmod>2024-07-25</lastmod>
     <changefreq>weekly</changefreq>
@@ -132,7 +125,7 @@
   </url>
   
   <url>
-    <loc>https://blog.richardw.top/categories/%E6%95%99%E7%A8%8B/Markdown/</loc>
+    <loc>https://blog.richardw.top/categories/%E6%95%99%E7%A8%8B/</loc>
     <lastmod>2024-07-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -140,6 +133,13 @@
   
   <url>
     <loc>https://blog.richardw.top/categories/%E4%BC%91%E9%97%B2/SINOFSX/</loc>
+    <lastmod>2024-07-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.richardw.top/categories/%E6%95%99%E7%A8%8B/Markdown/</loc>
     <lastmod>2024-07-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
