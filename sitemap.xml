@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://blog.richardw.top/posts/4568e40d/</loc>
+    <loc>https://blog.richardw.top/about/index.html</loc>
     
     <lastmod>2024-07-28</lastmod>
     
@@ -20,9 +20,9 @@
   </url>
   
   <url>
-    <loc>https://blog.richardw.top/about/index.html</loc>
+    <loc>https://blog.richardw.top/posts/4568e40d/</loc>
     
-    <lastmod>2024-07-27</lastmod>
+    <lastmod>2024-07-28</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
