@@ -13,8 +13,6 @@
       
       <categories>
           
-          <category> 休闲 </category>
-          
           <category> GTA </category>
           
       </categories>
@@ -42,8 +40,6 @@
       
       <categories>
           
-          <category> 休闲 </category>
-          
           <category> SINOFSX </category>
           
       </categories>
@@ -54,6 +50,8 @@
             <tag> SINOFSX </tag>
             
             <tag> Prepar3D </tag>
+            
+            <tag> 模拟飞行 </tag>
             
         </tags>
       
