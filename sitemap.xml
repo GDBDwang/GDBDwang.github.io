@@ -124,6 +124,13 @@
   </url>
   
   <url>
+    <loc>https://blog.richardw.top/tags/%E5%8D%9A%E5%AE%A2%E6%9B%B4%E6%96%B0/</loc>
+    <lastmod>2025-01-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://blog.richardw.top/tags/Markdown/</loc>
     <lastmod>2025-01-25</lastmod>
     <changefreq>weekly</changefreq>
@@ -146,13 +153,6 @@
   
   <url>
     <loc>https://blog.richardw.top/tags/GTA/</loc>
-    <lastmod>2025-01-25</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.richardw.top/tags/%E5%8D%9A%E5%AE%A2%E6%9B%B4%E6%96%B0/</loc>
     <lastmod>2025-01-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -189,14 +189,14 @@
   </url>
   
   <url>
-    <loc>https://blog.richardw.top/categories/GTA/</loc>
+    <loc>https://blog.richardw.top/categories/%E4%BC%91%E9%97%B2/GTA/</loc>
     <lastmod>2025-01-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://blog.richardw.top/categories/%E4%BC%91%E9%97%B2/GTA/</loc>
+    <loc>https://blog.richardw.top/categories/GTA/</loc>
     <lastmod>2025-01-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
