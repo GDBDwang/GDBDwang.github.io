@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://blog.richardw.top/rw600/600/index.html</loc>
+    <loc>https://blog.richardw.top/rw600/007/index.html</loc>
     
     <lastmod>2025-01-26</lastmod>
     
@@ -83,6 +83,13 @@
 
   
   <url>
+    <loc>https://blog.richardw.top/tags/%E5%8D%9A%E5%AE%A2%E6%9B%B4%E6%96%B0/</loc>
+    <lastmod>2025-01-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://blog.richardw.top/tags/SINOFSX/</loc>
     <lastmod>2025-01-26</lastmod>
     <changefreq>weekly</changefreq>
@@ -105,13 +112,6 @@
   
   <url>
     <loc>https://blog.richardw.top/tags/GTA/</loc>
-    <lastmod>2025-01-26</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.richardw.top/tags/%E5%8D%9A%E5%AE%A2%E6%9B%B4%E6%96%B0/</loc>
     <lastmod>2025-01-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
