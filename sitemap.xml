@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://blog.richardw.top/file/download/rw/1.html</loc>
+    <loc>https://blog.richardw.top/file/download/rw/index.html</loc>
     
     <lastmod>2025-01-26</lastmod>
     
@@ -83,7 +83,14 @@
 
   
   <url>
-    <loc>https://blog.richardw.top/tags/%E5%8D%9A%E5%AE%A2%E6%9B%B4%E6%96%B0/</loc>
+    <loc>https://blog.richardw.top/tags/%E4%BD%A9%E9%87%8C%E7%A7%91%E5%B2%9B%E7%B3%BB%E5%88%97/</loc>
+    <lastmod>2025-01-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.richardw.top/tags/GTA/</loc>
     <lastmod>2025-01-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -104,14 +111,7 @@
   </url>
   
   <url>
-    <loc>https://blog.richardw.top/tags/%E4%BD%A9%E9%87%8C%E7%A7%91%E5%B2%9B%E7%B3%BB%E5%88%97/</loc>
-    <lastmod>2025-01-26</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.richardw.top/tags/GTA/</loc>
+    <loc>https://blog.richardw.top/tags/%E5%8D%9A%E5%AE%A2%E6%9B%B4%E6%96%B0/</loc>
     <lastmod>2025-01-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -120,14 +120,14 @@
 
   
   <url>
-    <loc>https://blog.richardw.top/categories/%E6%A8%A1%E6%8B%9F%E9%A3%9E%E8%A1%8C/</loc>
+    <loc>https://blog.richardw.top/categories/GTA/</loc>
     <lastmod>2025-01-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://blog.richardw.top/categories/GTA/</loc>
+    <loc>https://blog.richardw.top/categories/%E6%A8%A1%E6%8B%9F%E9%A3%9E%E8%A1%8C/</loc>
     <lastmod>2025-01-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
